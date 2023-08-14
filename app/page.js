@@ -1,95 +1,74 @@
+'use client';
+
 import Image from 'next/image'
+import Link from 'next/link'
+
+
 import styles from './page.module.css'
+import Footer from './components/Footer'
+import React from 'react';
+
+const data = {
+  test1: "testing1",
+  test2: "testing 2"
+}
+
+
+
+let isEnglish = true;
+
 
 export default function Home() {
+  const [likes, setLikes] = React.useState("Hello");
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main>
+      <h1>Ramone Personal Chef</h1>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <Image
+      style={{borderRadius: '100%'}}
+      src="/giphy.gif" 
+      width={180}
+      height={180}/>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+      <Image
+      src="/ramone.png" 
+      width={280}
+      height={180}/>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+      <p>Chef for epicurean clients</p>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
+      <p>I'm a personal chef with more than 15 years of experience, 
+        I studied and graduated from New York Culinary School in 1986. 
+        I also worked in New York at Vista International Hotel at World 
+        Trade Center in the 80’s and Ritz Carlton Hotels for 5 years.. 
+        I have a extensive resume of very high end clientele including Robert 
+        Downey Jr. , Jennifer López, Graig Robbins, Dj Tiesto and others. 
+        Just go to my website Personal Chef Ramone.
+      </p>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <p>{likes}</p>
+      {isEnglish && <p>{likes}</p> || <p>In Spanish</p>}
+      
+      <button  onClick={changeLanguage}>Change Language</button>
+
+      <Link href="/test">{data.test1}</Link>
+      <Link href="/test">{data.test2}</Link>
+      <Link href="/test">Rates and services</Link>
+      <Link href="/test">Contact</Link>
+      
+      <Footer/>
+
+      
+
+
+      
     </main>
   )
+  function changeLanguage(){
+  
+    isEnglish = !isEnglish
+    setLikes("Not hello")
+    console.log(isEnglish)
+  }
+  
 }
