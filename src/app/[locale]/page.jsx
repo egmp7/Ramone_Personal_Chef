@@ -1,5 +1,6 @@
 'use client';
 
+import LocaleSwitcher from '@/src/components/LocaleSwicher';
 import {useTranslations} from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -12,6 +13,8 @@ export default function Index() {
     <main>
 
     <h1>Ramone Personal Chef</h1>
+
+    <LocaleSwitcher/>
 
     <Image
     style={{borderRadius: '100%'}}

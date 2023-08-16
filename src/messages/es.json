@@ -9,5 +9,8 @@
     },
     "About":{
         "title": "Sobre mí"
+    },
+    "LocaleSwitcher":{
+        "locale": "{locale, select, es {Español} en {Inglés} other {Unknown}}"
     }
 }
