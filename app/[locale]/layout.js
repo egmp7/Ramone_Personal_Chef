@@ -27,6 +27,10 @@ export default async function LocaleLayout({ children, params: { locale } }) {
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
+        <footer>
+          <span>Tel: xxx - xxx - xxxx</span>
+          <span>Mail: xxxxxx@gmail.com</span>
+        </footer>
       </body>
     </html>
   );

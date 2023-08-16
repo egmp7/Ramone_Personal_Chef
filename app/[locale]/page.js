@@ -1,9 +1,8 @@
 'use client';
 
-import Image from 'next/image'
-import Link from 'next/link'
-import Footer from './components/Footer'
 import {useTranslations} from 'next-intl';
+import Image from 'next/image';
+import Link from 'next/link';
  
 export default function Index() {
   
@@ -34,8 +33,6 @@ export default function Index() {
     <Link href="/test">{t('menuButton')}</Link>
     <Link href="/test">{t('ratesButton')}</Link>
     <Link href="/test">{t('contactButton')}</Link>
-    <Footer/>
-
     </main>
   )
 }
