@@ -6,5 +6,8 @@
         "menuButton": "Sample Menu",
         "contactButton": "Contact",
         "ratesButton": "Rates and Services"
+    },
+    "About":{
+        "title": "About Me"
     }
 }

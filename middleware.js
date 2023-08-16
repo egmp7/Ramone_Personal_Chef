@@ -1,7 +1,5 @@
 import createMiddleware from 'next-intl/middleware';
  
-console.log("page")
-
 export default createMiddleware({
   // A list of all locales that are supported
   locales: ['en', 'es'],

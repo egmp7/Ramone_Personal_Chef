@@ -6,5 +6,8 @@
         "menuButton": "Menú de muestra",
         "contactButton": "Contacto",
         "ratesButton": "Tarifas y servicios"
+    },
+    "About":{
+        "title": "Sobre mí"
     }
 }

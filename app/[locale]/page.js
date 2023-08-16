@@ -29,7 +29,7 @@ export default function Index() {
     <p>{t('slogan')}</p>
     <p>{t('intro')}</p>
     
-    <Link href="/test">{t('aboutButton')}</Link>
+    <Link href="/about">{t('aboutButton')}</Link>
     <Link href="/test">{t('menuButton')}</Link>
     <Link href="/test">{t('ratesButton')}</Link>
     <Link href="/test">{t('contactButton')}</Link>
