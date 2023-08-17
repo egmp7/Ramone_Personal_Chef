@@ -102,7 +102,7 @@
        fx="43.455448"
        fy="57.014851"
        r="43.782177"
-       gradientTransform="matrix(0.67164178,0,0,0.03358209,13.288756,55.100173)"
+       gradientTransform="matrix(0.67164178,0,0,0.03358209,10.113754,55.100173)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -132,7 +132,7 @@
        id="g5"
        inkscape:label="cooking plate"
        style="fill:#fca800;fill-opacity:1"
-       transform="rotate(-22.3,64.49466,15.670222)">
+       transform="rotate(-22.3,62.907162,23.724568)">
       <path
          id="path2"
          style="fill:url(#radialGradient13);stroke-width:0.264583"
@@ -156,7 +156,7 @@
     <ellipse
        style="fill:url(#radialGradient17);fill-opacity:1;stroke-width:0.202926"
        id="path4"
-       cx="42.47525"
+       cx="39.300247"
        cy="57.014851"
        rx="29.405937"
        ry="1.4702971"

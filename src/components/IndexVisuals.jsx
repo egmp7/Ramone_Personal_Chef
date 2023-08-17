@@ -1,31 +1,31 @@
 import Image from 'next/image';
-import styles from './indexVisuals.module.css'
 
 export default function IndexVisuals() {
   return (
     <>
-      <div className={styles.indexPresentation}>
-        <div className={styles.animation}>
+      <div className="flex flex-wrap justify-center items-center">
+        {/* Animation */}
+        <div className = "relative shrink-0">
           {/* World */}
           <Image
-            className={styles.world}
+            className = "absolute top-10 left-14 rounded-full"
             src="/world.gif"
-            width={165}
-            height={165}
+            width={80}
+            height={80}
             alt="Ramone logo" />
 
           {/* Cooking Plate */}
           <Image
-            className={styles.cookingPlate}
+            
             src="/cooking_plate.svg"
-            width={400}
-            height={220}
+            width={240}
+            height={150}
             alt="Ramone logo" />
         </div>
 
         {/* Ramone */}
         <Image
-          className={styles.chef}
+          className="rounded-3xl"
           src="/ramone.png"
           width={440}
           height={280}
