@@ -12,22 +12,18 @@ export default function Page() {
 
   return (
     <>
-      <container>
-        <Nav />
-        <Image
+      <Nav />
+      <Image
         className="mx-auto my-4 rounded-2xl"
-          src="/ramone.png"
-          width={280}
-          height={180}
-          alt="ramone picture" />
+        src="/ramone.png"
+        width={280}
+        height={180}
+        alt="ramone picture" />
 
-        {t.rich('about', {
-          paragraph: (p) => <p className="pt-2 mx-20">{p}</p>,
-          italic: (i) => <em>{i}</em>
-        })}
-
-      </container>
+      {t.rich('about', {
+        paragraph: (p) => <p className="pt-2 mx-20">{p}</p>,
+        italic: (i) => <em>{i}</em>
+      })}
       <Footer />
-
     </>);
 }
