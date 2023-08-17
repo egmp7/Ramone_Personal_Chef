@@ -17,7 +17,7 @@ export default function Index() {
           <IndexVisuals />
           <h1 className="pt-4 text-3xl font-bold text-center">Ramone Personal Chef</h1>
           <p className="pt-1 italic text-center">{t('slogan')}</p>
-          <p className="pt-2 text-center">{t('intro')}</p>
+          <p className="pt-2 text-center mx-20">{t('intro')}</p>
         </main >
       </content>
       <Footer />
