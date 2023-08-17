@@ -1,0 +1,25 @@
+.indexPresentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation {
+   position: relative;
+   height: 220px;
+   width:400px;
+   scale: 0.8;
+   
+}
+.cookingPlate{
+    position:absolute;
+}
+.world{
+    border-radius: 100%;
+    position: absolute;
+    top: 5px;
+    left: 60px
+}
+.chef{
+    border-radius: 5px;
+}

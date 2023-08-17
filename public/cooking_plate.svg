@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400"
+   height="220"
+   viewBox="0 0 105.83333 58.208332"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="cooking_plate.svg"
+   inkscape:export-filename="cooking_plate.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="false"
+     inkscape:zoom="1.6195707"
+     inkscape:cx="200.97918"
+     inkscape:cy="96.013097"
+     inkscape:window-width="1392"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient17"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#fca800;stop-opacity:0.32188842;"
+         offset="0"
+         id="stop19" />
+      <stop
+         style="stop-color:#fca800;stop-opacity:1;"
+         offset="0.38961035"
+         id="stop18" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient16"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#9a6600;stop-opacity:1;"
+         offset="0"
+         id="stop17" />
+      <stop
+         style="stop-color:#fca800;stop-opacity:1;"
+         offset="0.51070338"
+         id="stop16" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient12"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#fca800;stop-opacity:0;"
+         offset="0"
+         id="stop13" />
+      <stop
+         style="stop-color:#fca800;stop-opacity:1;"
+         offset="1"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       id="swatch10">
+      <stop
+         style="stop-color:#fca800;stop-opacity:1;"
+         offset="0"
+         id="stop10" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12"
+       id="radialGradient13"
+       cx="78.412372"
+       cy="29.373918"
+       fx="78.412372"
+       fy="29.373918"
+       r="13.232784"
+       gradientTransform="matrix(1,0,0,2.1399617,0,-33.485142)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16"
+       id="radialGradient17"
+       cx="43.455448"
+       cy="57.014851"
+       fx="43.455448"
+       fy="57.014851"
+       r="43.782177"
+       gradientTransform="matrix(0.85261194,0,0,0.03358209,5.9963986,55.100173)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17"
+       id="radialGradient19"
+       cx="95.565813"
+       cy="29.080985"
+       fx="95.565813"
+       fy="29.080985"
+       r="2.450495"
+       gradientTransform="matrix(1,0,0,3.0833334,0,-60.585387)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.98019802)">
+    <circle
+       style="display:none;fill:#000000;stroke-width:0.132291"
+       id="path1"
+       cx="43.935036"
+       cy="29.072195"
+       r="26.458334"
+       inkscape:label="Earth" />
+    <g
+       id="g5"
+       inkscape:label="cooking plate"
+       style="fill:#fca800;fill-opacity:1"
+       transform="translate(4.9009901,-0.98019802)">
+      <path
+         id="path2"
+         style="fill:url(#radialGradient13);stroke-width:0.264583"
+         d="M 65.179588,57.691569 A 28.425739,28.425739 0 0 0 91.645156,29.405957 28.425739,28.425739 0 0 0 65.179588,1.0562663 Z" />
+      <rect
+         style="fill:#fca800;fill-opacity:1;stroke-width:0.165505"
+         id="rect4"
+         width="1.4915348"
+         height="1.3069305"
+         x="91.633278"
+         y="28.664848" />
+      <rect
+         style="fill:url(#radialGradient19);fill-opacity:1;stroke-width:0.233205"
+         id="rect3"
+         width="4.90099"
+         height="15.111386"
+         x="93.115318"
+         y="21.525291"
+         ry="2.450495" />
+    </g>
+    <ellipse
+       style="fill:url(#radialGradient17);fill-opacity:1;stroke-width:0.228636"
+       id="path4"
+       cx="43.047031"
+       cy="57.014851"
+       rx="37.329205"
+       ry="1.4702971"
+       inkscape:label="plate" />
+  </g>
+</svg>

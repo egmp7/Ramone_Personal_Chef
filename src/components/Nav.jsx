@@ -1,6 +1,8 @@
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
 export default function Nav() {
+  const t = useTranslations('Index')
   return (
     <>
       <Link href="/about">{t('aboutButton')}</Link>
