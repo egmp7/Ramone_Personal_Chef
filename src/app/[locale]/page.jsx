@@ -17,7 +17,7 @@ export default function Index() {
           <Nav />
           <main className={styles.main}>
             <IndexVisuals />
-            <h1 className={styles.title}>Ramone Personal Chef</h1>
+            <h1 className= "text-3xl font-bold underline">Ramone Personal Chef</h1>
             <p className={styles.slogan}>{t('slogan')}</p>
             <p className={styles.intro}>{t('intro')}</p>
           </main>
