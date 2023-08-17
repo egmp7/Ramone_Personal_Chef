@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer>
-      <span>Tel: xxx - xxx - xxxx</span><br></br>
-      <span>Mail: xxxxxx@gmail.com</span>
+    <footer className="mt-auto text-center">
+      <span className="m-2">Tel: xxx - xxx - xxxx</span>
+      <span className="m-2">Mail: xxxxxx@gmail.com</span>
     </footer>
   )
 } 
