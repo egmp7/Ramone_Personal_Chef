@@ -1,0 +1,37 @@
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.space{
+    flex-grow: 1;
+}
+
+.animation {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    scale: 0.8;
+    
+ }
+ .cookingPlate{
+     position:absolute;
+ }
+ .world{
+     border-radius: 100%;
+     position: absolute;
+     top: 5px;
+     left: 20px
+ }
+ .link{
+    text-decoration: none;
+    padding: 1rem;;
+ }
+
+ .link:visited{
+    color:inherit;
+ }
+
+ .link:hover{
+    text-decoration: underline;
+ }
