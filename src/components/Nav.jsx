@@ -1,40 +1,37 @@
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import LocaleSwitcher from './LocaleSwicher';
-import styles from './nav.module.css';
 import Image from 'next/image';
 
 export default function Nav() {
   const t = useTranslations('Index')
   return (
     <>
-      <div className={styles.nav}>
-        <Link href="/">
-          <div className={styles.animation}>
-            {/* World */}
-            <Image
-              className={styles.world}
-              src="/world.gif"
-              width={35}
-              height={35}
-              alt="Ramone logo" />
+      <nav className = "flex items-center">
+        <Link href="/" className='relative mt-2'>
+          {/* World */}
+          <Image
+            className="rounded-full absolute top-2 left-4"
+            src="/world.gif"
+            width={24}
+            height={24}
+            alt="Ramone logo" />
 
-            {/* Cooking Plate */}
-            <Image
-              className={styles.cookingPlate}
-              src="/cooking_plate.svg"
-              width={100}
-              height={50}
-              alt="Ramone logo" />
-          </div>
+          {/* Cooking Plate */}
+          <Image
+            src="/cooking_plate.svg"
+            width={70}
+            height={30}
+            alt="Ramone logo" />
+
         </Link>
-        <div className={styles.space}></div>
-        <Link className={styles.link} href="/about">{t('aboutButton')}</Link>
-        <Link className={styles.link} href="/test">{t('menuButton')}</Link>
-        <Link className={styles.link} href="/test">{t('ratesButton')}</Link>
-        <Link className={styles.link} href="/test">{t('contactButton')}</Link>
-        <LocaleSwitcher />
-      </div>
+        <div className="flex-grow"></div>
+        <Link className="pr-4 hover:underline" href="/about">{t('aboutButton')}</Link>
+        <Link className="pr-4 hover:underline" href="/test">{t('menuButton')}</Link>
+        <Link className="pr-4 hover:underline" href="/test">{t('ratesButton')}</Link>
+        <Link className="pr-4 hover:underline" href="/test">{t('contactButton')}</Link>
+        <LocaleSwitcher/>
+      </nav>
     </>
   )
 }
