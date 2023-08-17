@@ -2,10 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import Footer from '@/src/components/Footer';
-import LocaleSwitcher from '@/src/components/LocaleSwicher';
 import Nav from '@/src/components/Nav';
-import Image from 'next/image';
-import CookingPlateWorld from '@/src/components/CookingPlateWorld';
+import IndexVisuals from '@/src/components/IndexVisuals';
 
 export default function Index() {
 
@@ -13,18 +11,13 @@ export default function Index() {
 
   return (
     <>
+    <Nav />
       <main>
+        <IndexVisuals />
         <h1>Ramone Personal Chef</h1>
-
-        <LocaleSwitcher />
-
-        <CookingPlateWorld />
-
         <p>{t('slogan')}</p>
         <p>{t('intro')}</p>
-
       </main>
-      <Nav />
       <Footer />
     </>
   )

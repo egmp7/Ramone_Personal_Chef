@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import styles from './cookingPlateWorld.module.css'
+import styles from './indexVisuals.module.css'
 
-export default function CookingPlateWorld() {
+export default function IndexVisuals() {
   return (
     <>
       <div className={styles.indexPresentation}>
