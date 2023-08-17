@@ -1,0 +1,38 @@
+.pageContainer {
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+.contentWrap {
+    padding-bottom: 4rem;
+    
+}
+
+.main {
+    padding-top: 5rem;
+    flex-grow: 1;
+}
+
+.title {
+    text-align: center;
+}
+
+.slogan {
+    text-align: center;
+    font-style: italic;
+}
+
+.intro {
+    margin: auto;
+    text-align: center;
+    max-width: 50rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+}

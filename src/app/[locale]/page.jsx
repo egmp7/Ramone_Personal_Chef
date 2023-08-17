@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import Footer from '@/src/components/Footer';
 import Nav from '@/src/components/Nav';
 import IndexVisuals from '@/src/components/IndexVisuals';
+import styles from './home.module.css'
 
 export default function Index() {
 
@@ -11,14 +12,20 @@ export default function Index() {
 
   return (
     <>
-    <Nav />
-      <main>
-        <IndexVisuals />
-        <h1>Ramone Personal Chef</h1>
-        <p>{t('slogan')}</p>
-        <p>{t('intro')}</p>
-      </main>
-      <Footer />
+      <div className={styles.pageContainer}>
+        <div className={styles.contentWrap}>
+          <Nav />
+          <main className={styles.main}>
+            <IndexVisuals />
+            <h1 className={styles.title}>Ramone Personal Chef</h1>
+            <p className={styles.slogan}>{t('slogan')}</p>
+            <p className={styles.intro}>{t('intro')}</p>
+          </main>
+        </div>
+        <div className={styles.footer}>
+          <Footer  />
+        </div>
+      </div>
     </>
   )
 }
