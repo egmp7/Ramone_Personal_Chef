@@ -4,7 +4,7 @@ import LocaleSwitcher from './LocaleSwicher';
 import Image from 'next/image';
 
 export default function Nav() {
-  const t = useTranslations('Index')
+  const t = useTranslations('Nav')
   return (
     <>
       <nav className = "flex items-center">
@@ -26,10 +26,10 @@ export default function Nav() {
 
         </Link>
         <div className="flex-grow"></div>
-        <Link className="pr-4 hover:underline" href="/about">{t('aboutButton')}</Link>
-        <Link className="pr-4 hover:underline" href="/test">{t('menuButton')}</Link>
-        <Link className="pr-4 hover:underline" href="/test">{t('ratesButton')}</Link>
-        <Link className="pr-4 hover:underline" href="/test">{t('contactButton')}</Link>
+        <Link className="pr-4 hover:underline" href="/about">{t('about')}</Link>
+        <Link className="pr-4 hover:underline" href="/test">{t('menu')}</Link>
+        <Link className="pr-4 hover:underline" href="/test">{t('rates')}</Link>
+        <Link className="pr-4 hover:underline" href="/test">{t('contact')}</Link>
         <LocaleSwitcher/>
       </nav>
     </>

@@ -1,11 +1,7 @@
 {
     "Index" :{
         "slogan": "Spanish slogan",
-        "intro": "Spanish intro",
-        "aboutButton": "Sobre mí",
-        "menuButton": "Menú de muestra",
-        "contactButton": "Contacto",
-        "ratesButton": "Tarifas y servicios"
+        "intro": "Spanish intro"
     },
     "About":{
         "title": "Sobre mí",
@@ -13,5 +9,11 @@
     },
     "LocaleSwitcher":{
         "locale": "{locale, select, es {Español} en {Inglés} other {Unknown}}"
+    },
+    "Nav":{
+        "about": "Sobre mí",
+        "menu": "Menú de muestra",
+        "contact": "Contacto",
+        "rates": "Tarifas y servicios"
     }
 }
