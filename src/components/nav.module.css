@@ -20,8 +20,8 @@
  .world{
      border-radius: 100%;
      position: absolute;
-     top: 5px;
-     left: 20px
+     top: 10px;
+     left: 25px
  }
  .link{
     text-decoration: none;

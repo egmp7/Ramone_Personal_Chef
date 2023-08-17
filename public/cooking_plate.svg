@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showguides="false"
      inkscape:zoom="1.6195707"
-     inkscape:cx="200.97918"
+     inkscape:cx="200.67046"
      inkscape:cy="96.013097"
      inkscape:window-width="1392"
      inkscape:window-height="1052"
@@ -102,7 +102,7 @@
        fx="43.455448"
        fy="57.014851"
        r="43.782177"
-       gradientTransform="matrix(0.85261194,0,0,0.03358209,5.9963986,55.100173)"
+       gradientTransform="matrix(0.67164178,0,0,0.03358209,13.288756,55.100173)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -132,7 +132,7 @@
        id="g5"
        inkscape:label="cooking plate"
        style="fill:#fca800;fill-opacity:1"
-       transform="translate(4.9009901,-0.98019802)">
+       transform="rotate(-22.3,64.49466,15.670222)">
       <path
          id="path2"
          style="fill:url(#radialGradient13);stroke-width:0.264583"
@@ -154,11 +154,11 @@
          ry="2.450495" />
     </g>
     <ellipse
-       style="fill:url(#radialGradient17);fill-opacity:1;stroke-width:0.228636"
+       style="fill:url(#radialGradient17);fill-opacity:1;stroke-width:0.202926"
        id="path4"
-       cx="43.047031"
+       cx="42.47525"
        cy="57.014851"
-       rx="37.329205"
+       rx="29.405937"
        ry="1.4702971"
        inkscape:label="plate" />
   </g>

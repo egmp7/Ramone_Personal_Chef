@@ -15,8 +15,8 @@ export default function Nav() {
             <Image
               className={styles.world}
               src="/world.gif"
-              width={40}
-              height={40}
+              width={35}
+              height={35}
               alt="Ramone logo" />
 
             {/* Cooking Plate */}

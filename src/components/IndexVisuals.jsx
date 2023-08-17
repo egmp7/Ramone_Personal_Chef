@@ -10,8 +10,8 @@ export default function IndexVisuals() {
           <Image
             className={styles.world}
             src="/world.gif"
-            width={200}
-            height={200}
+            width={165}
+            height={165}
             alt="Ramone logo" />
 
           {/* Cooking Plate */}
