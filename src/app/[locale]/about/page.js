@@ -22,7 +22,7 @@ export default function Page() {
 
       <h1 className="text-3xl font-bold text-center">{t('title')}</h1>
       {t.rich('about', {
-        paragraph: (p) => <p className="pt-2 px-2 text-justify sm:mx-10 md:mx-20">{p}</p>,
+        paragraph: (p) => <p className="pt-2 px-2 text-justify sm:mx-10 lg:mx-20">{p}</p>,
         italic: (i) => <em>{i}</em>
       })}
       <Footer />
