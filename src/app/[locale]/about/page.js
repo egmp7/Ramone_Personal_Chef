@@ -16,12 +16,13 @@ export default function Page() {
       <Image
         className="mx-auto my-4 rounded-2xl"
         src="/ramone.png"
-        width={280}
+        width={360}
         height={180}
         alt="ramone picture" />
 
+      <h1 className="text-3xl font-bold text-center">{t('title')}</h1>
       {t.rich('about', {
-        paragraph: (p) => <p className="pt-2 mx-20">{p}</p>,
+        paragraph: (p) => <p className="pt-2 px-2 text-justify sm:mx-10 md:mx-20">{p}</p>,
         italic: (i) => <em>{i}</em>
       })}
       <Footer />
