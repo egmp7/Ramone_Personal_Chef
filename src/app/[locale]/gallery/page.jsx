@@ -7,18 +7,16 @@ const images = [
       src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
       width: 320,
       height: 174,
-      isSelected: true,
-      caption: "After Rain (Jeshu John - designerspics.com)",
+      customOverlay: (
+        <div className="custom-overlay__caption">
+          <div>Boats (Jeshu John - designerspics.com)</div>
+        </div>
+      ),
    },
    {
       src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
       width: 320,
-      height: 212,
-      tags: [
-         { value: "Ocean", title: "Ocean" },
-         { value: "People", title: "People" },
-      ],
-      alt: "Boats (Jeshu John - designerspics.com)",
+      height: 212
    },
 
    {
@@ -31,7 +29,7 @@ const images = [
 export default function GalleryImage(){
     return (
     <>
-        <Gallery images={images} />
+        <Gallery images={images} enableImageSelection={false}/>
     </>
     )
 }
