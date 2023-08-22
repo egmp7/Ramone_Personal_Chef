@@ -1,35 +1,33 @@
 'use client';
 
 import { Gallery } from "react-grid-gallery";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import { images } from "./images";
+import { useState } from "react";
 
-const images = [
-   {
-      src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-      width: 320,
-      height: 174,
-      customOverlay: (
-        <div className="custom-overlay__caption">
-          <div>Boats (Jeshu John - designerspics.com)</div>
-        </div>
-      ),
-   },
-   {
-      src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-      width: 320,
-      height: 212
-   },
+export default function GalleryImage() {
 
-   {
-      src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-      width: 320,
-      height: 212,
-   },
-];
+  const [openLightbox, setOpenLightbox] = useState(false);
+  const [index, setIndex] = useState(-1);
+  
+  function handleClick (index) {
+    setIndex(index) 
+    setOpenLightbox(true)};
 
-export default function GalleryImage(){
-    return (
+  return (
     <>
-        <Gallery images={images} enableImageSelection={false}/>
+      <Gallery 
+        images={images} 
+        enableImageSelection={false}
+        onClick={ handleClick } />
+
+      <Lightbox
+        open={openLightbox}
+        index={index}
+        close={() => setOpenLightbox(false)}
+        slides={images}
+      />
     </>
-    )
+  )
 }
