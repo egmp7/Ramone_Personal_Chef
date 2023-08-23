@@ -16,7 +16,7 @@ export default function Nav() {
   const navigation = [
     { name: 'Home', href: '/', current: true },
     { name: t('about'), href: '/about', current: false },
-    { name: t('menu'), href: '#', current: false },
+    { name: t('menu'), href: '/menu', current: false },
     { name: t('rates'), href: '#', current: false },
     { name: t('contact'), href: '#', current: false },
   ]
