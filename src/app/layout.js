@@ -1,3 +1,5 @@
+import Footer from '../components/Footer';
+import Nav from '../components/Nav';
 import './globals.css'
 
 // Metadata
@@ -11,7 +13,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="flex flex-col min-h-screen mx-2">
         
-          {children}
+        <Nav />
+        {children}
+        <Footer />
         
       </body>
     </html>
