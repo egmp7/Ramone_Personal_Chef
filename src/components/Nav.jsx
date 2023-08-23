@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
@@ -11,12 +12,14 @@ function classNames(...classes) {
 
 export default function Nav() {
 
+  const pathname = usePathname();
+
   const navigation = [
-    { name: 'Home', href: '/', current: true },
-    { name: 'About', href: '/about', current: false },
-    { name: 'Sample Menu', href: '/menu', current: false },
-    { name: 'Pricing', href: '/pricing', current: false },
-    { name: 'Contact', href: '/contact', current: false },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Sample Menu', href: '/menu' },
+    { name: 'Pricing', href: '/pricing' },
+    { name: 'Contact', href: '/contact' },
   ]
   return (
     <>
@@ -57,7 +60,7 @@ export default function Nav() {
                     key={item.name}
                     href={item.href}
                     className={classNames(
-                      item.current ? 'text-black' : 'text-gray-600 hover:underline', 'pr-4'
+                      pathname == item.href ? 'text-black' : 'text-gray-600 hover:underline', 'pr-4'
                     )}
                     aria-current={item.current ? 'page' : undefined}
                   >
@@ -74,7 +77,7 @@ export default function Nav() {
                   as='a'
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    pathname == item.href ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}

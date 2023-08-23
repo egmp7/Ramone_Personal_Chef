@@ -18,6 +18,7 @@ export default function Gallery() {
 
   return (
     <>
+       <h1 className="mb-4 pt-4 text-3xl font-bold text-center">Sample Menu</h1>
       <PhotoAlbum 
       layout="rows" 
       photos={images}
