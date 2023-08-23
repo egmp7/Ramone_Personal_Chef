@@ -15,7 +15,7 @@
     "next-intl": "^2.19.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-grid-gallery": "^1.0.0",
+    "react-photo-album": "^2.3.0",
     "yet-another-react-lightbox": "^3.12.1"
   },
   "devDependencies": {
