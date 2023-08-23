@@ -15,7 +15,7 @@ export default function Nav() {
     { name: 'Home', href: '/', current: true },
     { name: 'About', href: '/about', current: false },
     { name: 'Sample Menu', href: '/menu', current: false },
-    { name: 'Pricing', href: '#', current: false },
+    { name: 'Pricing', href: '/pricing', current: false },
     { name: 'Contact', href: '#', current: false },
   ]
   return (
