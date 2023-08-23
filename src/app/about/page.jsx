@@ -1,5 +1,20 @@
 import Image from "next/image";
 
+
+const images = [
+  {
+    src: "/michael.jpeg",
+    width: "200",
+    height: "200"
+  },
+  {
+    src: "/peter.jpeg",
+    width: "200",
+    height: "200"
+  }
+]
+
+
 export default function Page() {
 
   return (
