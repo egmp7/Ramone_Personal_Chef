@@ -1,4 +1,8 @@
+'use client';
+
 import Image from "next/image";
+import useEmblaCarousel from 'embla-carousel-react'
+import { useEffect } from "react";
 
 
 const images = [
@@ -17,8 +21,23 @@ const images = [
 
 export default function Page() {
 
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false })
+
+  useEffect(() => {
+    if (emblaApi) {
+      console.log(emblaApi.slideNodes()) // Access API
+    }
+  }, [emblaApi])
   return (
     <>
+      <div className="embla" ref={emblaRef}>
+        <div className="embla__container">
+          <div className="embla__slide">Slide 1</div>
+          <div className="embla__slide">Slide 2</div>
+          <div className="embla__slide">Slide 3</div>
+        </div>
+      </div>
+
       <Image
         className="mx-auto my-4 rounded-2xl"
         src="/ramone.png"
