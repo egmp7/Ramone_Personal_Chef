@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import useEmblaCarousel from 'embla-carousel-react'
-import { useEffect } from "react";
+import Autoplay from 'embla-carousel-autoplay'
 
 
 const images = [
@@ -21,20 +21,33 @@ const images = [
 
 export default function Page() {
 
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false })
+  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
 
-  useEffect(() => {
-    if (emblaApi) {
-      console.log(emblaApi.slideNodes()) // Access API
-    }
-  }, [emblaApi])
   return (
     <>
-      <div className="embla" ref={emblaRef}>
-        <div className="embla__container">
-          <div className="embla__slide">Slide 1</div>
-          <div className="embla__slide">Slide 2</div>
-          <div className="embla__slide">Slide 3</div>
+      <div className="flex">
+        <p><i>Jennifer Lopez, Marc Anthony, Robert Downey Jr, DJ Tiesto, Market
+            America CEO JR and Loren Ridinger, MIA Shoes CEO Richard Strauss, Actress
+            Evelin Giro, Mogul Realtor Craig Robbins, Peace Love World CEO Allina
+            Villasante, NFL Quarterback Brady Quinn,</i> and many others.</p>
+        
+        <div className="w-24 shrink-0">
+          <div className="overflow-hidden" ref={emblaRef}>
+            <div className="flex">
+            {images.map((img, index) => {
+                return (
+                  <div className="grow-0 shrink-0 basis-full min-w-0">
+                    <Image
+                      src={img.src}
+                      width={img.width}
+                      height={img.height}
+                      alt={img.alt}
+                      className=" rounded-md" />
+                  </div>
+                )
+              })}
+            </div>
+          </div>
         </div>
       </div>
 
