@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="400"
+   width="420"
    height="220"
-   viewBox="0 0 105.83333 58.208332"
+   viewBox="0 0 111.125 58.208332"
    version="1.1"
    id="svg1"
    inkscape:version="1.3 (0e150ed, 2023-07-21)"
@@ -29,8 +29,8 @@
      inkscape:document-units="mm"
      showguides="false"
      inkscape:zoom="1.6195707"
-     inkscape:cx="200.67046"
-     inkscape:cy="96.013097"
+     inkscape:cx="200.36174"
+     inkscape:cy="96.013098"
      inkscape:window-width="1392"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -55,12 +55,12 @@
        id="linearGradient16"
        inkscape:collect="always">
       <stop
-         style="stop-color:#9a6600;stop-opacity:1;"
+         style="stop-color:#664400;stop-opacity:1;"
          offset="0"
          id="stop17" />
       <stop
          style="stop-color:#fca800;stop-opacity:1;"
-         offset="0.51070338"
+         offset="1"
          id="stop16" />
     </linearGradient>
     <linearGradient
@@ -86,10 +86,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient12"
        id="radialGradient13"
-       cx="78.412372"
-       cy="29.373918"
-       fx="78.412372"
-       fy="29.373918"
+       cx="78.412369"
+       cy="29.373919"
+       fx="78.412369"
+       fy="29.373919"
        r="13.232784"
        gradientTransform="matrix(1,0,0,2.1399617,0,-33.485142)"
        gradientUnits="userSpaceOnUse" />
@@ -102,16 +102,16 @@
        fx="43.455448"
        fy="57.014851"
        r="43.782177"
-       gradientTransform="matrix(0.67164178,0,0,0.03358209,10.113754,55.100173)"
+       gradientTransform="matrix(0.95895524,0,0,0.03358209,2.8561421,54.77344)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient17"
        id="radialGradient19"
-       cx="95.565813"
-       cy="29.080985"
-       fx="95.565813"
-       fy="29.080985"
+       cx="95.565811"
+       cy="29.080984"
+       fx="95.565811"
+       fy="29.080984"
        r="2.450495"
        gradientTransform="matrix(1,0,0,3.0833334,0,-60.585387)"
        gradientUnits="userSpaceOnUse" />
@@ -132,7 +132,7 @@
        id="g5"
        inkscape:label="cooking plate"
        style="fill:#fca800;fill-opacity:1"
-       transform="rotate(-22.3,62.907162,23.724568)">
+       transform="rotate(-22.3,65.04295,17.257087)">
       <path
          id="path2"
          style="fill:url(#radialGradient13);stroke-width:0.264583"
@@ -151,14 +151,15 @@
          height="15.111386"
          x="93.115318"
          y="21.525291"
-         ry="2.450495" />
+         ry="2.450495"
+         rx="2.450495" />
     </g>
     <ellipse
-       style="fill:url(#radialGradient17);fill-opacity:1;stroke-width:0.202926"
+       style="fill:url(#radialGradient17);fill-opacity:1;stroke-width:0.242475"
        id="path4"
-       cx="39.300247"
-       cy="57.014851"
-       rx="29.405937"
+       cx="44.527973"
+       cy="56.688118"
+       rx="41.985146"
        ry="1.4702971"
        inkscape:label="plate" />
   </g>

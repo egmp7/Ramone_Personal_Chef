@@ -4,19 +4,18 @@ export default function IndexVisuals() {
   return (
     <>
       <div className="flex flex-wrap justify-center items-center">
-        {/* Animation */}
-        <div className = "hidden relative shrink-0 sm:block">
+        
+        <div className="hidden relative shrink-0 sm:block lg:mr-12">
           {/* World */}
           <Image
-            className = "absolute top-10 left-14 rounded-full"
+            className="absolute bottom-2 left-14 rounded-full"
             src="/world.gif"
-            width={80}
-            height={80}
+            width={90}
+            height={90}
             alt="Ramone logo" />
 
           {/* Cooking Plate */}
           <Image
-            
             src="/cooking_plate.svg"
             width={240}
             height={150}
@@ -30,6 +29,7 @@ export default function IndexVisuals() {
           width={440}
           height={280}
           alt="ramone picture" />
+
       </div>
     </>
   )
