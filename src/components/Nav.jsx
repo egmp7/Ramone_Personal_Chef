@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { Disclosure, Menu, Transition } from '@headlessui/react'
+import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 function classNames(...classes) {
@@ -27,7 +27,9 @@ export default function Nav() {
         {({ open }) => (
           <>
             <div className="flex sm:items-center">
-              <div className="sm:hidden"> 
+
+              {/* Bar3 Button */}
+              <div className="sm:hidden">
                 <Disclosure.Button className="relative">
                   <span className="absolute -inset-0.5" />
                   {open ? (
@@ -37,23 +39,27 @@ export default function Nav() {
                   <span className="absolute -inset-0.5" />
                 </Disclosure.Button>
               </div>
-              <div className="flex-grow sm:hidden"></div>
-              <div className="relative mt-1">
 
+              <div className="flex-grow sm:hidden"></div>
+
+              {/* Logo */}
+              <div className="relative mt-1">
                 <Image
                   className="rounded-full absolute top-2 left-4"
                   src="/world.gif"
                   width={24}
                   height={24}
                   alt="World rotating" />
-
                 <Image
                   src="/cooking_plate.svg"
                   width={70}
                   height={30}
                   alt="Ramone logo" />
               </div>
+
               <div className="hidden flex-grow sm:block"></div>
+
+              {/* Nav Links - Large View */}
               <div className='hidden sm:block'>
                 {navigation.map((item) => (
                   <Link
@@ -68,13 +74,15 @@ export default function Nav() {
                   </Link>
                 ))}
               </div>
+
             </div>
 
+            {/* Nav Links - Phone View */}
             <Disclosure.Panel className="sm:hidden">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
-                  as='a'
+                  as={Link}
                   href={item.href}
                   className={classNames(
                     pathname == item.href ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
