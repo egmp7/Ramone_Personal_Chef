@@ -15,14 +15,14 @@ export default function Gallery() {
 
   const [index, setIndex] = useState();
 
-
   return (
     <>
-       <h1 className="mb-4 pt-4 text-3xl font-bold text-center">Sample Menu</h1>
-      <PhotoAlbum 
-      layout="rows" 
-      photos={images}
-      onClick={({ index }) => setIndex(index)} />
+      <h1 className="mb-4 pt-4 text-3xl font-bold text-center">Sample Menu</h1>
+      
+      <PhotoAlbum
+        layout="rows"
+        photos={images}
+        onClick={({ index }) => setIndex(index)} />
 
       <Lightbox
         plugins={[Captions, Thumbnails, Zoom]}
@@ -30,7 +30,6 @@ export default function Gallery() {
         index={index}
         close={() => setIndex(-1)}
         slides={images}
-        
       />
     </>
   )
