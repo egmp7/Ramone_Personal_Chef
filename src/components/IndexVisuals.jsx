@@ -5,7 +5,7 @@ export default function IndexVisuals() {
     <>
       <div className="flex flex-wrap justify-center items-center">
         
-        <div className="hidden relative shrink-0 sm:block lg:mr-12">
+        <div className="hidden relative shrink-0 sm:block lg:mr-12 my-4">
           {/* World */}
           <Image
             className="absolute bottom-2 left-14 rounded-full"
