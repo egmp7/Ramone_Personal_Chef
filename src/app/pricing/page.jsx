@@ -6,7 +6,7 @@ export default function Pricing() {
     <>
       <h1 className="my-4 text-3xl font-bold text-center text-slate-800">{data.title}</h1>
 
-      <div className=" mx-4 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className=" mx-4 grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
         {data.services.map((service) => {
           return (
             <div className="shadow-lg px-6 py-4 bg-slate-200 rounded-md">
