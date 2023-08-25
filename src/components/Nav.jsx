@@ -26,24 +26,22 @@ export default function Nav() {
       <Disclosure as="nav">
         {({ open }) => (
           <>
-            <div className="flex sm:items-center">
+            <div className="flex items-center bg-slate-700 border-b-2 border-b-slate-600">
 
               {/* Bar3 Button */}
-              <div className="sm:hidden">
-                <Disclosure.Button className="relative">
-                  <span className="absolute -inset-0.5" />
-                  {open ? (
-                    <XMarkIcon className="block h-12 w-12" aria-hidden="true" />
-                  ) : (
-                    <Bars3Icon className="block h-12 w-12" aria-hidden="true" />)}
-                  <span className="absolute -inset-0.5" />
-                </Disclosure.Button>
-              </div>
+              <Disclosure.Button className="relative sm:hidden text-slate-400 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-slate-300">
+                <span className="absolute " />
+                {open ? (
+                  <XMarkIcon className="block h-12 w-12" aria-hidden="true" />
+                ) : (
+                  <Bars3Icon className="block h-12 w-12" aria-hidden="true" />)}
+                <span className="absolute" />
+              </Disclosure.Button>
 
               <div className="flex-grow sm:hidden"></div>
 
               {/* Logo */}
-              <div className="relative mt-1">
+              <div className="relative my-1 mr-1 sm:ml-1">
                 <Image
                   className="rounded-full absolute top-2 left-4"
                   src="/world.gif"
@@ -51,7 +49,7 @@ export default function Nav() {
                   height={24}
                   alt="World rotating" />
                 <Image
-                  src="/cooking_plate.svg"
+                  src="/cooking_plate2.svg"
                   width={70}
                   height={30}
                   alt="Ramone logo" />
@@ -66,7 +64,7 @@ export default function Nav() {
                     key={item.name}
                     href={item.href}
                     className={classNames(
-                      pathname == item.href ? 'text-black' : 'text-gray-600 hover:underline', 'pr-4'
+                      pathname == item.href ? 'text-slate-300 bg-slate-800 p-2 rounded-sm' : 'text-slate-400 hover:bg-slate-600 p-2 rounded-sm hover:text-slate-400', 'mr-1'
                     )}
                     aria-current={item.current ? 'page' : undefined}
                   >
@@ -78,15 +76,15 @@ export default function Nav() {
             </div>
 
             {/* Nav Links - Phone View */}
-            <Disclosure.Panel className="sm:hidden">
+            <Disclosure.Panel className="sm:hidden bg-slate-700">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as={Link}
                   href={item.href}
                   className={classNames(
-                    pathname == item.href ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block rounded-md px-3 py-2 text-base font-medium'
+                    pathname == item.href ? 'bg-slate-800 text-slate-200' : 'text-slate-400',
+                    'block rounded-md px-3 py-2'
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >

@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3 (0e150ed, 2023-07-21)"
-   sodipodi:docname="cooking_plate.svg"
+   sodipodi:docname="cooking_plate2.svg"
    inkscape:export-filename="cooking_plate.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -67,12 +67,12 @@
        id="linearGradient12"
        inkscape:collect="always">
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
+         style="stop-color:#fff5b2;stop-opacity:1;"
+         offset="0.09324758"
          id="stop13" />
       <stop
          style="stop-color:#fca800;stop-opacity:1;"
-         offset="1"
+         offset="0.74276525"
          id="stop12" />
     </linearGradient>
     <linearGradient
@@ -86,12 +86,12 @@
        inkscape:collect="always"
        xlink:href="#linearGradient12"
        id="radialGradient13"
-       cx="78.412369"
-       cy="29.373919"
-       fx="78.412369"
-       fy="29.373919"
+       cx="75.806274"
+       cy="29.205032"
+       fx="75.806274"
+       fy="29.205032"
        r="13.232784"
-       gradientTransform="matrix(1,0,0,2.1399617,0,-33.485142)"
+       gradientTransform="matrix(-2.0959162,-0.02912988,0.03261281,-2.3465149,242.04811,99.979798)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -102,7 +102,7 @@
        fx="43.455448"
        fy="57.014851"
        r="43.782177"
-       gradientTransform="matrix(0.95895524,0,0,0.03358209,2.8561421,54.77344)"
+       gradientTransform="matrix(0.95895524,0,0,0.03358209,1.0591124,53.793242)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -132,11 +132,13 @@
        id="g5"
        inkscape:label="cooking plate"
        style="fill:#fca800;fill-opacity:1"
-       transform="rotate(-22.3,65.04295,17.257087)">
+       transform="rotate(-22.3,67.983545,2.3376816)">
       <path
          id="path2"
          style="fill:url(#radialGradient13);stroke-width:0.264583"
-         d="M 65.179588,57.691569 A 28.425739,28.425739 0 0 0 91.645156,29.405957 28.425739,28.425739 0 0 0 65.179588,1.0562663 Z" />
+         d="M 65.427549,57.086977 A 28.425739,28.425739 0 0 0 91.893117,28.801365 28.425739,28.425739 0 0 0 65.427549,0.45167381 Z"
+         inkscape:transform-center-x="-0.32673267"
+         inkscape:transform-center-y="1.470297" />
       <rect
          style="fill:#fca800;fill-opacity:1;stroke-width:0.165505"
          id="rect4"
@@ -157,8 +159,8 @@
     <ellipse
        style="fill:url(#radialGradient17);fill-opacity:1;stroke-width:0.242475"
        id="path4"
-       cx="44.527973"
-       cy="56.688118"
+       cx="42.730942"
+       cy="55.70792"
        rx="41.985146"
        ry="1.4702971"
        inkscape:label="plate" />

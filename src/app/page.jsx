@@ -8,9 +8,9 @@ export default function Index() {
     <>
       <main className='mt-1 lg:mt-16'>
         <IndexVisuals />
-        <h1 className="pt-4 text-3xl font-bold text-center">{data.title}</h1>
-        <p className="pt-1 italic text-center">{data.slogan}</p>
-        <p className="pt-4 px-2 text-justify sm:text-center md:mx-20">{parse(data.intro)}</p>
+        <h1 className="pt-4 text-3xl font-bold text-center text-slate-700">{data.title}</h1>
+        <p className="pt-1 italic text-center text-slate-600">{data.slogan}</p>
+        <p className="pt-4 px-2 text-justify sm:text-center md:mx-20 text-slate-700">{parse(data.intro)}</p>
           
       </main >
     </>
