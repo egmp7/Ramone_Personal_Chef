@@ -28,6 +28,7 @@ export default function Pricing() {
           )
         })}
       </div>
+      <div className='mt-4'></div>
     </>
   )
 }
