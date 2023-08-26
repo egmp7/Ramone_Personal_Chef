@@ -11,11 +11,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex flex-col min-h-screen font-serif">
+      <body className="max-w-screen-xl mx-auto bg-slate-100 font-serif">
         
-        <Nav />
-        {children}
-        <Footer />
+        <div className='flex flex-col min-h-screen bg-white'>
+          <Nav />
+          {children}
+          <Footer />
+        </div>
         
       </body>
     </html>
