@@ -14,7 +14,13 @@ export default function Index() {
         </div>
         <h1 className="pt-4 text-3xl font-bold text-center text-slate-700">{data.title}</h1>
         <p className="pt-1 italic text-center text-slate-600">{data.slogan}</p>
-        <p className="pt-4 px-2 text-justify sm:text-center md:mx-20 text-slate-700">{parse(data.intro)}</p>
+        <div className="pt-4 px-2 text-justify md:mx-20 text-slate-700">
+          {data.intro.map((paragraph) => {
+            return (
+              <p className='mb-2'>{parse(paragraph)}</p>
+            )
+          })}
+        </div>
         <div className='mt-4'></div>
       </main >
     </>
