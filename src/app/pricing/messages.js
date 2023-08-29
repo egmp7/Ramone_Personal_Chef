@@ -16,7 +16,7 @@ export const data = {
                 "For single executives and couples with the desire to have healthy meals made in your kitchen, with special details of your needs, like low salt, fats, sugars, or calorie counts.",
                 "These meals will be ready to heat up and eat, or prepared for you to cook by following the Chef's instructions.",
                 "For grocery shopping, the same hourly rate is applied and is made according to your budget and specifications."],
-            price: "$50/hour",
+            price: "$70/hour",
             addOn: "plus groceries"
         },
         {

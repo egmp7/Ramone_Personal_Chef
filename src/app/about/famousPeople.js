@@ -25,16 +25,16 @@ export const images = [
         alt: "DJ Tiesto"
     },
     {
-        src: "/famous/jr_ridinger.jpeg",
-        width: "320",
-        height: "320",
-        alt: "Jr Ridinger"
-    },
-    {
         src: "/famous/loren_ridinger.jpeg",
         width: "320",
         height: "320",
         alt: "Loren Ridinger"
+    },
+    {
+        src: "/famous/richard_strauss.jpeg",
+        width: "320",
+        height: "320",
+        alt: "Richard Strauss"
     },
     {
         src: "/famous/evelin_giro.jpeg",

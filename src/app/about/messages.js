@@ -1,7 +1,7 @@
 export const data ={
     title: "About Me",
     subtitle: "High profile clients",
-    highProfile: "<i>Jennifer Lopez, Marc Anthony, Robert Downey Jr, DJ Tiesto, Market America CEO JR and Loren Ridinger, MIA Shoes CEO Richard Strauss, Actress Evelin Giro Mogul Realtor Craig Robbins, Peace Love World CEO Allina Villasante, NFL Quarterback Brady Quinn,</i> and many others.",
+    highProfile: "<i>Jennifer Lopez, Marc Anthony, Robert Downey Jr, DJ Tiesto, Market America CEO Loren Ridinger, MIA Shoes CEO Richard Strauss, Actress Evelin Giro Mogul Realtor Craig Robbins, Peace Love World CEO Allina Villasante, NFL Quarterback Brady Quinn,</i> and many others.",
     aboutMeText:[
 
         "Chef Ramone's love affair with food began in his childhood, around family, watching how passion and dedication can create amazing meals, while using the best spices and flavors Cuban cuisine can offer.",

@@ -5,7 +5,7 @@ export default function IndexVisuals() {
     <>
       <div className="flex flex-wrap justify-center items-center">
         
-        <div className="hidden relative shrink-0 sm:block lg:mr-12 my-4">
+        <div className="relative shrink-0 lg:mr-12 my-4">
           {/* World */}
           <Image
             className="absolute bottom-2 left-14 rounded-full"
@@ -24,7 +24,7 @@ export default function IndexVisuals() {
 
         {/* Ramone */}
         <Image
-          className="rounded-3xl"
+          className="hidden sm:block rounded-3xl"
           src="/ramone.png"
           width={440}
           height={280}
